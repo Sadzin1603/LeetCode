@@ -1,5 +1,5 @@
 import java.util.*;
-class MergeSortedArray {
+public class MergeSortedArray {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         List<Integer> res = new ArrayList<Integer>();
         for(int i=0;i<m;i++){
